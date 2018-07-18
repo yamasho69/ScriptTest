@@ -17,6 +17,12 @@ public class Test : MonoBehaviour
         array[4] = 80;
 
         // 配列の要素をすべて表示する
+        for (int i = 0; i <= 4; i++)
+        {
+            Debug.Log(array[i]);
+        }
+
+        // 配列の要素をすべて表示する
         for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
